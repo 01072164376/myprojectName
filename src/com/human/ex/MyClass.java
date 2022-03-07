@@ -8,7 +8,7 @@ public class MyClass {
 		System.out.print("hello");
 		System.out.println(" world");
 
-		// �ڷ��� : �⺻�ڷ���(ũ�� ��Ȯ,����� �޸𸮿� ���� ������)
+		// �ڷ��� : �⺻�ڷ���(ũ�� ��Ȯ,����� �޸𸮿� ���� ������)  
 		// �ڷ��� : �����ڷ���(
 		// �⺻�ڷ��� : boolean(1)
 		// ���� : ���� byte(1),short(2),int(4),long(8)
