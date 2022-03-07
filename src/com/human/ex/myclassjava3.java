@@ -4,7 +4,7 @@ public class myclassjava3 {
 
 	public static void main(String[] args) {
 		java.util.Scanner sc = new java.util.Scanner(System.in);
-		System.out.print("Á¤¼öÀÔ·Â>>");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½Ô·ï¿½>>");
 		String st = sc.nextLine();
 		System.out.println(st);
 		int i = Integer.parseInt(st);
@@ -12,23 +12,23 @@ public class myclassjava3 {
 
 		double hheight;
 
-		System.out.print("Å°¸¦ m·Î ¼Ò¼öÁ¡ 2Â° ÀÚ¸®±îÁö ÀÔ·Â >> ");
+		System.out.print("Å°ï¿½ï¿½ mï¿½ï¿½ ï¿½Ò¼ï¿½ï¿½ï¿½ 2Â° ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ >> ");
 		hheight = Double.parseDouble(sc.nextLine());
 		hheight *= 100;
-		System.out.println((int) hheight + "cmÀÔ´Ï´Ù.");
+		System.out.println((int) hheight + "cmï¿½Ô´Ï´ï¿½.");
 		System.out.println();
 
-		System.out.print("»óÀåÀÇ °¡·Î ÀÔ·ÂÇÏ½Ã¿À >> ");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½ >> ");
 		int q1 = Integer.parseInt(sc.nextLine());
-		System.out.print("»óÀåÀÇ ¼¼·Î ÀÔ·ÂÇÏ½Ã¿À >> ");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½ >> ");
 		int q2 = Integer.parseInt(sc.nextLine());
-		System.out.print("»óÀåÀÇ ³ôÀÌ ÀÔ·ÂÇÏ½Ã¿À >> ");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½ >> ");
 		int q3 = Integer.parseInt(sc.nextLine());
-		System.out.println("»óÀåÀÇ ºÎÇÇ´Â" + (q1 * q2 * q3) + "ÀÔ´Ï´Ù");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ç´ï¿½" + (q1 * q2 * q3) + "ï¿½Ô´Ï´ï¿½");
 
-		System.out.println("±¸¸ÅÇÒ ¿¬ÇÊÀÇ °³¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À. >>");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¿ï¿½. >>");
 		int p1 = Integer.parseInt(sc.nextLine());
-		System.out.println("¹Ú½º:" + (p1 / 12) + " ÀÚ·ç:" + p1 + " ±Ý¾×:" + (p1 * 1000));
+		System.out.println("ï¿½Ú½ï¿½:" + (p1 / 12) + " ï¿½Ú·ï¿½:" + p1 + " ï¿½Ý¾ï¿½:" + (p1 * 1000));
 
 	}
 }
